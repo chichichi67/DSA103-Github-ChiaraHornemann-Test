@@ -1,0 +1,17 @@
+[project]
+name = "dsa103-github-chiarahornemann-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "chichichi67", email = "chiara.hornemann@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+dsa103-github-chiarahornemann-test = "dsa103_github_chiarahornemann_test:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
